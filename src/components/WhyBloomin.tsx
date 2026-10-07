@@ -160,14 +160,14 @@ const WhyBloomin = () => {
                     target={w.external ? '_blank' : undefined}
                     rel={w.external ? 'noopener' : undefined}
                     data-burst={w.external ? '1' : '0'}
-                    className="inline-flex items-center gap-3 self-start rounded-full bg-page py-3 pl-5 pr-3 text-base font-medium text-primary hover:gap-[18px] hover:bg-white"
+                    className="inline-flex max-w-full items-center gap-2.5 self-start whitespace-nowrap rounded-full bg-page py-2.5 pl-4 pr-2.5 text-sm font-medium text-primary hover:bg-white sm:gap-3 sm:py-3 sm:pl-5 sm:pr-3 sm:text-base sm:hover:gap-[18px]"
                     style={{
                       ...fade(d.d4),
                       transition: `gap .35s ${EASE}, background .3s ease, opacity .55s ease ${d.d4}s, transform .9s ${EASE} ${d.d4}s`,
                     }}
                   >
                     {w.cta}
-                    <span className="grid h-7 w-7 place-items-center rounded-full bg-primary text-[13px] text-page">→</span>
+                    <span className="grid h-6 w-6 flex-none place-items-center rounded-full bg-primary text-[13px] text-page sm:h-7 sm:w-7">→</span>
                   </a>
                 </div>
                 <Visual index={i} active={a} style={visualStyle} />

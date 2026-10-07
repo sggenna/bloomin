@@ -129,10 +129,10 @@ const Hero = () => {
             rel="noopener"
             data-burst="1"
             data-magnet="1"
-            className="inline-flex items-center gap-2.5 whitespace-nowrap rounded-full bg-primary py-3 pl-5 pr-3 text-sm font-medium text-page transition-[background-color,gap,transform] duration-500 sm:gap-3.5 sm:py-[15px] sm:pl-[26px] sm:pr-4 sm:text-base ease-[cubic-bezier(.2,.7,0,1)] hover:gap-3.5 hover:bg-ink sm:hover:gap-5"
+            className="inline-flex max-w-full items-center gap-2.5 whitespace-nowrap rounded-full bg-primary py-3 pl-5 pr-3 text-[clamp(12px,3.8vw,14px)] font-medium text-page transition-[background-color,gap,transform] duration-500 sm:gap-3.5 sm:py-[15px] sm:pl-[26px] sm:pr-4 sm:text-base ease-[cubic-bezier(.2,.7,0,1)] hover:gap-3.5 hover:bg-ink sm:hover:gap-5"
           >
             Agendar aula experimental
-            <span className="grid h-6 w-6 place-items-center rounded-full bg-page text-[13px] text-primary sm:h-[30px] sm:w-[30px] sm:text-[15px]">→</span>
+            <span className="grid h-6 w-6 flex-none place-items-center rounded-full bg-page text-[13px] text-primary sm:h-[30px] sm:w-[30px] sm:text-[15px]">→</span>
           </a>
         </div>
       </div>

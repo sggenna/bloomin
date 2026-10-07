@@ -117,9 +117,9 @@ const CourseModal = ({
             target="_blank"
             rel="noopener"
             data-burst="1"
-            className="flex items-center justify-between gap-3 rounded-full bg-primary py-3 pl-5 pr-3 text-sm font-medium text-page transition-colors duration-300 hover:bg-ink sm:gap-3.5 sm:py-3.5 sm:pl-6 sm:pr-3.5 sm:text-base"
+            className="flex items-center justify-between gap-3 whitespace-nowrap rounded-full bg-primary py-3 pl-5 pr-3 text-sm font-medium text-page transition-colors duration-300 hover:bg-ink sm:gap-3.5 sm:py-3.5 sm:pl-6 sm:pr-3.5 sm:text-base"
           >
-            <span className="sm:hidden">Saber mais pelo WhatsApp</span>
+            <span className="sm:hidden">Saber mais</span>
             <span className="hidden sm:inline">Quero saber mais sobre este curso</span>
             <span className="grid h-6 w-6 flex-none place-items-center rounded-full bg-page text-[13px] text-primary sm:h-[30px] sm:w-[30px] sm:text-[15px]">→</span>
           </a>

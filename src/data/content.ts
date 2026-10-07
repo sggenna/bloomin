@@ -6,7 +6,7 @@ export const WA_LEVEL = wa('Oi Jamile, quero fazer o teste de nível')
 export const WA_DOUBT = wa('Oi Jamile, tenho uma dúvida sobre a Bloomin')
 export const WA_ASK = wa('Oi Jamile, quero saber mais sobre as aulas')
 export const INSTAGRAM = { handle: '@jams.englishteacher', url: 'https://www.instagram.com/jams.englishteacher/' }
-export const EMAIL = 'jamile@bloominenglish.com'
+export const EMAIL = 'jamile@bloominenglish.com.br'
 export const waCourse = (name: string) => wa(`Oi Jamile, quero saber mais sobre o curso ${name}`)
 
 export const NAV_LINKS = [

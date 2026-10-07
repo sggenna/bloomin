@@ -93,7 +93,7 @@ const Contact = () => {
                   className="inline-flex max-w-full items-center gap-2.5 whitespace-nowrap rounded-full bg-page py-3 pl-5 pr-3 text-[clamp(12px,3.8vw,14px)] font-medium text-primary transition-[background-color,gap,transform] duration-500 sm:gap-3.5 sm:py-[17px] sm:pl-[30px] sm:pr-[18px] sm:text-[17px] ease-[cubic-bezier(.2,.7,0,1)] hover:gap-3.5 hover:bg-white sm:hover:gap-[22px]"
                 >
                   Agendar aula experimental
-                  <span className="grid h-6 w-6 place-items-center rounded-full bg-primary text-[13px] text-page sm:h-8 sm:w-8 sm:text-[15px]">→</span>
+                  <span className="grid h-6 w-6 flex-none place-items-center rounded-full bg-primary text-[13px] text-page sm:h-8 sm:w-8 sm:text-[15px]">→</span>
                 </a>
               </div>
             </div>
