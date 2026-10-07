@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section ref={sectionRef} id="contato" className="relative h-[220vh]">
       <div className="sticky top-0 h-svh overflow-hidden px-[clamp(12px,1.5vw,20px)] py-3">
-        <div className="relative mx-auto flex h-full max-w-[1440px] flex-col justify-end p-[clamp(32px,5vw,72px)] text-page">
+        <div className="relative mx-auto flex h-full max-w-[1440px] flex-col justify-end p-6 text-page sm:p-[clamp(32px,5vw,72px)]">
           <div ref={clipRef} className="absolute inset-0 overflow-hidden rounded-[clamp(16px,2vw,28px)] will-change-[clip-path]">
             <img
               ref={imgRef}
@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(120,20,68,.15)_0%,rgba(90,14,50,.78)_100%)]" />
           </div>
 
-          <div className="relative flex flex-wrap items-end justify-between gap-8">
+          <div className="relative flex flex-col items-start gap-8 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between">
             <h2 className="m-0 text-[clamp(48px,min(8vw,13vh),136px)] font-medium leading-[.95] tracking-[-.06em]">
               {LINES.map((line, li) => (
                 <span key={li} className="block">
@@ -79,7 +79,7 @@ const Contact = () => {
                 </span>
               ))}
             </h2>
-            <div ref={echoRef} className="flex max-w-[340px] flex-col gap-6 opacity-0">
+            <div ref={echoRef} className="flex w-full min-w-0 max-w-[340px] flex-col gap-6 opacity-0">
               <p className="m-0 text-[17px] leading-normal">
                 Sem taxa de matrícula. Aulas ao vivo, 100% online, em turmas de até 10 alunos.
               </p>
@@ -90,7 +90,7 @@ const Contact = () => {
                   rel="noopener"
                   data-burst="1"
                   data-magnet="1"
-                  className="inline-flex items-center gap-2.5 whitespace-nowrap rounded-full bg-page py-3 pl-5 pr-3 text-sm font-medium text-primary transition-[background-color,gap,transform] duration-500 sm:gap-3.5 sm:py-[17px] sm:pl-[30px] sm:pr-[18px] sm:text-[17px] ease-[cubic-bezier(.2,.7,0,1)] hover:gap-3.5 hover:bg-white sm:hover:gap-[22px]"
+                  className="inline-flex max-w-full items-center gap-2.5 whitespace-nowrap rounded-full bg-page py-3 pl-5 pr-3 text-[clamp(12px,3.8vw,14px)] font-medium text-primary transition-[background-color,gap,transform] duration-500 sm:gap-3.5 sm:py-[17px] sm:pl-[30px] sm:pr-[18px] sm:text-[17px] ease-[cubic-bezier(.2,.7,0,1)] hover:gap-3.5 hover:bg-white sm:hover:gap-[22px]"
                 >
                   Agendar aula experimental
                   <span className="grid h-6 w-6 place-items-center rounded-full bg-primary text-[13px] text-page sm:h-8 sm:w-8 sm:text-[15px]">→</span>
