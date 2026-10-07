@@ -115,7 +115,7 @@ const Hero = () => {
             Let’s grow your English.
           </h2>
           <p style={enter(820)} className="m-0 hidden flex-wrap gap-x-4 gap-y-1 text-base leading-normal text-ink-muted sm:flex">
-            <span>Aulas ao vivo, online</span>
+            <span>Aulas 100% online e ao vivo</span>
             <span className="text-rule" aria-hidden="true">·</span>
             <span>Até 10 alunos por turma</span>
             <span className="text-rule" aria-hidden="true">·</span>
